@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:localdb
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+logging:
+  level:
+    root: INFO
+    com:
+      example:
+        rmm: DEBUG
